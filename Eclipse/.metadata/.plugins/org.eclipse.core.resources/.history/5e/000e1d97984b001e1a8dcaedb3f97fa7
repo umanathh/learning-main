@@ -1,0 +1,23 @@
+package postAPIValidation;
+
+import io.restassured.RestAssured;
+import static  io.restassured.RestAssured.*;
+
+
+public class PostAPIValidation {
+	
+	public static void main( String[] args ) {
+		
+		// Validation if add APIsi working fine
+		
+		// Given - All the input details needs to submit
+		// when - submit the API ( whether it is get, post or what 
+		// Then - validate the response 
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		given().queryParam("key","qaclick123").header("Content-type","application/json")
+		
+		
+	}
+
+}

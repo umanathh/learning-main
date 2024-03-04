@@ -1,0 +1,119 @@
+git status     -- to check whether it is git repostory or not. and checking status of repository.
+
+
+git init        -- to initialise repository.
+
+
+git add --a       ----  came into unmodified  or came into stageing condition   (git add first.txt   can also be used)
+
+
+after git add 
+
+
+
+git commit -m  "I have commited this change"          --  to commit changes
+
+
+
+touch .gitignore           ------- to ignore changes in any particular file.  but name of file must be written in .gitignore file
+
+
+
+git diff            ----  it compares working  directory and staging area
+
+
+
+git diff --staged        --- it compares priveous commit and next staging area.
+
+
+
+git log                        ----- to see all previous activity.
+
+
+
+
+
+                  ************************TO RENAME THE NAME OF FILE*******************************
+
+git commit rm third.txt            ------ to remove any particular file
+
+
+
+git mv first.txt second.txt          ----- this will change name of first.txt file  to second.txt file
+
+
+git rm  --cached   first.txt           ---- this will stop to track first.txt file
+
+              ************************************clonning*********************************************
+
+
+git clone https://www.github.com/pandas.dev/pandas.git mypanda        --------- this will create a folder name mypanda  and it will clone all the git repository in that folder.
+
+
+
+
+git log --pretty=oneline                ----- pretty commit history.
+git log --pretty=short                  ----- ,, ,, ,,  ,,  ,,.
+
+
+
+git checkout --first.txt              ---- this will remove all the changes upto last commit in first.txt file.
+
+
+
+            ************************************** GIT PUSHING new*****************************************
+
+echo "# first" >> README.md     -----> to creat readme file
+git init
+git add README.md
+git commit -m "first commit"       
+git branch -M main                          ------------->       to create baranches with name main
+git remote add origin https://github.com/umanathh/first.git
+git push -u origin main                     ------------->       to push directory
+
+
+
+
+
+
+      ************************************** GIT PUSHING existing*****************************************   
+
+
+
+git remote add origin https://github.com/umanathh/first.git
+git branch -M main
+git push -u origin main
+
+                    *************************to create branches****************************
+
+
+git checkout -b test        -------> this will create new branch
+
+
+
+                    *************************to move to other branches****************************
+
+
+
+
+git checkout master      ----> this will move to master branch
+
+
+
+
+
+           ***********to stop tracking or to ensure git repository is not git resitory******************
+
+
+
+rm -rf .git
+
+
+
+
+                    *************************to merge two branches****************************
+
+go to master branch -
+
+
+git merge test                        

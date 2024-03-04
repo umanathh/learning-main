@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Cucumber/src/test/java/StepDefination/StepDefinition (2).java&apos; to &apos;StepDefinition.java&apos;" description="Rename resource &apos;StepDefinition (2).java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/StepDefination/StepDefinition (2).java" name="StepDefinition.java" stamp="1697367658389" updateReferences="true"/>
+</session>

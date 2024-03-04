@@ -1,0 +1,24 @@
+MAVEN PROJECT - 
+
+
+maven is a build automation tool. it is used to create build for test caese  in the form of jar file or war file.
+
+
+It can be used for tests or development tool or some API.
+
+We don't need to have jar files in storage and don't need to bother about updates.
+
+
+We can have   license.txt and/or README.txt.....
+
+
+
+SRC/MAIN/JAVA - any utility method or helper or functions files.
+
+
+SRC/TEST/JAVA  -  test classes
+
+
+
+plugins is used to achieve complete maven life cycle. we can use compiler in it to compile programme.
+

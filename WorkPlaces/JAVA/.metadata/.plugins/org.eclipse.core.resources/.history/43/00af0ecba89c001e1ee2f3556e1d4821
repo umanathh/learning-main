@@ -1,0 +1,33 @@
+package generics;
+
+public class DataStructureDemo {
+	
+	public void IsPalindromeString(String str) {
+		
+		String str1 = str;
+		String str2 = "";
+		
+		for(int i = 0;i<str1.length();i++)
+		{
+			str2 += str1.charAt(str1.length()-i - 1);
+		}
+		
+		System.out.println(str);
+		System.out.println(str2);
+		if(str.equals(str2))
+			System.out.println("String is palindrome");
+		else
+			System.out.println("String is not palindrome");
+	}
+
+	public static void main(String[] args) {
+		
+		DataStructureDemo demo = new DataStructureDemo();
+
+		String str = "HiiH";
+		demo.IsPalindromeString(str);
+		
+		
+	
+	}
+}

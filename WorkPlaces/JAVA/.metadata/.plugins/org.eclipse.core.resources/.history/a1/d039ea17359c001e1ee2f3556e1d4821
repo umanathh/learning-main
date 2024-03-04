@@ -1,0 +1,27 @@
+package generics;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.TreeSet;
+
+public class DataStructureDemo {
+
+	public static void main(String[] args) {
+		
+	ArrayList<String> list = new ArrayList<String>();
+	
+	list.add("Rahul");
+	list.add("Mohan");
+	list.add("mohan");
+	list.add("priya");
+	
+	System.out.println(list);
+	
+	TreeSet<String> sortedList = new TreeSet<String>();
+	
+	sortedList.addAll(list);
+	
+	System.out.println(sortedList);
+	}
+	
+}

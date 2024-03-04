@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;accessToken&apos; to &apos;authenticationCode&apos;&#x0D;&#x0A;- Original project: &apos;Oauth2.0Authorisation_Code&apos;&#x0D;&#x0A;- Original element: &apos;Oauth2.0Authorisation_Code/src/test/java/accessToken&apos;&#x0D;&#x0A;- Renamed element: &apos;Oauth2.0Authorisation_Code/src/test/java/authenticationCode&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;accessToken&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;accessToken" name="authenticationCode" qualified="false" references="true" stamp="1696249159751" textual="true" version="1.0"/>
+</session>

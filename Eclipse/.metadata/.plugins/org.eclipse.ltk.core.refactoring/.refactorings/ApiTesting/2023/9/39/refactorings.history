@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;post&apos; to &apos;Basics&apos;&#x0D;&#x0A;- Original project: &apos;ApiTesting&apos;&#x0D;&#x0A;- Original element: &apos;ApiTesting/src/test/java/post&apos;&#x0D;&#x0A;- Renamed element: &apos;ApiTesting/src/test/java/Basics&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;post&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;post" name="Basics" qualified="false" references="true" stamp="1695662269248" textual="false" version="1.0"/>
+</session>

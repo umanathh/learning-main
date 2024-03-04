@@ -1,0 +1,35 @@
+package generics;
+
+import java.util.HashSet;
+
+public class DataStructureDemo {
+
+	public static void main(String[] args) {
+		
+		int[] arr = {1,11,2,1,1,1,23,24,56,67,67,33,22,2,22,22,2,12,12,34,34,23,24};
+		
+		
+// printing the elements of the given array
+		
+		
+		System.out.print("Original Array :  ");
+		for(int i = 0;i<arr.length;i++) {
+			System.out.print(arr[i]+ ",");
+		}
+		
+		
+// filtering Duplicate elements
+		
+	HashSet<Integer> listA = new HashSet<Integer>();
+	HashSet<Integer> listB = new HashSet<Integer>();
+
+	for(int i = 0;i<arr.length;i++) {
+	if(!listA.add(arr[i]))
+		listB.add(arr[i]);
+	
+	}
+	System.out.println(listB);
+	}
+
+
+}

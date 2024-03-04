@@ -1,0 +1,10 @@
+package interviewsPracticeQuestions;
+
+public class PrintMinimumNmberOfArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

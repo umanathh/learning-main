@@ -1,0 +1,27 @@
+package interviewsPracticeQuestions;
+
+public class SortingOfArray {
+	
+	public static void main(String []args)
+	{
+		int [][] arr = {{1,2,3,4},{34324,345363,456,235,25436457},{24,56,65434,344,3333333,3344},{1},{45,0}};
+		int row = 0;
+		int col = 0;
+		arr[row][col] = arr[0][0];
+		
+		
+		
+		for (int i = 0; i<arr.length;i++)
+			
+		{
+			for(int j = 0; j<arr[i].length;j++)
+			{
+				if(arr[i][j]<arr[row][col])
+					arr[row][col] = arr[i][j];	
+			}
+			
+			System.out.println(arr[row][col]);
+		}
+	}
+
+}

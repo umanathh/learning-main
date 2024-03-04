@@ -1,0 +1,18 @@
+package generics;
+
+public class DataStructureDemo {
+
+	public static void main(String[] args) {
+		
+int n = 141;
+int t = 0;
+while(n>0) {
+ t = n%10 + t;
+n = n/10;
+	
+	}
+
+if (n == t)
+	System.out.println("mubarak ho");
+}
+}

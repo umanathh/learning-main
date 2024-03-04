@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;basicRest.RequestSpecBuilder.java&apos; to &apos;RequestspecBuilder.java&apos;&#x0D;&#x0A;- Original project: &apos;APITestingRestAssuared&apos;&#x0D;&#x0A;- Original element: &apos;basicRest.RequestSpecBuilder.java&apos;&#x0D;&#x0A;- Renamed element: &apos;basicRest.RequestspecBuilder.java&apos;" description="Rename compilation unit &apos;RequestSpecBuilder.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;basicRest{RequestSpecBuilder.java" name="RequestspecBuilder.java" references="false" stamp="1696681022269" version="1.0"/>
+</session>

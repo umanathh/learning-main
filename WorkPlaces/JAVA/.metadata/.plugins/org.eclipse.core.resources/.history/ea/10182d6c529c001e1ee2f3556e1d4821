@@ -1,0 +1,20 @@
+package generics;
+
+public class DataStructureDemo {
+
+	public static void main(String[] args) {
+
+		int n = 1441;
+		int t = 0;
+		while (n > 0) {
+			t = (n%10) + t*10;
+			n = n / 10;
+
+		}
+
+		if (n == t)
+			System.out.println("mubarak ho");
+		else
+			System.out.println("   kya yrrrr ");
+	}
+}

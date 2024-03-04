@@ -1,0 +1,28 @@
+package interviewsPracticeQuestions;
+
+public class ReverseOfString {
+
+	public static void main(String[] args) {
+		
+		String str = "to Kya karu nhau";
+		String str2 = "";
+		char []StringArray = new char[str.length()];
+		
+		for (int i= 0; i<str.length();i++)
+			StringArray[i] = str.charAt(i);
+		
+		for (int i= 0; i<str.length();i++)
+			System.out.print(StringArray[i]);
+		
+		System.err.println("");
+		
+		for (int i= 0; i<str.length();i++)
+			StringArray[i]= StringArray[str.length()-i-1];
+		
+		for (int i= 0; i<str.length();i++)
+			System.out.print(StringArray[i]);
+				
+
+	}
+
+}

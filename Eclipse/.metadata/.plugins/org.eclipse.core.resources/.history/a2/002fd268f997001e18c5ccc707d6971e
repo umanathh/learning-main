@@ -1,0 +1,27 @@
+package piramids;
+
+import java.util.Iterator;
+
+public class NumberPramidAssecnding {
+	
+	public static void main(String []args)
+	{
+		int num = 1;
+		int NoOfRows =  4;
+		int NoOfColoumnInFirstRow =  5;
+		for(NoOfRows = 4;NoOfRows>0  ;NoOfRows--)
+		{
+			
+			for (NoOfColoumnInFirstRow =5 ; NoOfColoumnInFirstRow>0 ; NoOfColoumnInFirstRow--)
+			{
+				
+				System.out.print("  " +num++);
+		
+				
+			}
+			System.out.println("");
+			
+		}
+	}
+
+}

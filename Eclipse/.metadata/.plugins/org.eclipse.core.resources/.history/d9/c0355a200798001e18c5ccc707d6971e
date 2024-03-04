@@ -1,0 +1,36 @@
+package interviewsPracticeQuestions;
+
+public class PrintMinimumNmberOfArray {
+
+	public static void main(String[] args) {
+		
+		int [][] arr = {{1,2},{2,0,4},{123,123,123,6789,6743}};
+		System.out.println(arr.length);
+		
+		
+		int MinimumNum = arr[0][0];
+		int MinNumberCoulmn;
+		
+		for (int i = 0;i<arr.length;i++)
+		{
+			for (int j = 0; j<arr[i].length;j++)
+			{
+				if(arr[i][j] < MinimumNum)
+			
+				{					
+				
+					MinimumNum = arr[i][j];
+					MinNumberCoulmn = j;
+					
+				}
+			}
+
+		}
+		
+		System.out.println("MinimuNumberOfArray= " +MinimumNum);
+		
+		
+
+	}
+
+}

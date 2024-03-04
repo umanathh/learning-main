@@ -1,0 +1,61 @@
+TestNG is a framework as well as execution engine. it is a test driven development framework
+testNG is used more than Junit because it has better reporting system.
+we can have
+1. emaillable reports
+2. paramterization
+3. parallel execution
+4. test cases 
+5. test suits
+6. grouping
+7. Data provider
+
+
+It is a JAVA Unit Framework, can not use with any other programming language.
+
+
+
+
+
+CUCUMBER -  
+
+it's a BDD( behaviorel driven development) framework.  we use Ghherkin language to define the behavior
+
+it can be used with JAVA and Ruby.
+
+
+cucumber has three  component
+
+1. Feature File-     
+                Keywords -- When , Then, Now, As, But, etc.
+
+2.  Step Defination - written with (JAVA+ Selenium + Annotation )
+
+3. Test Runner -  TO run your feature and generate output.
+                
+
+
+DATA DRIVEN TESTING USING CUCUMBER - 
+
+1. simple data driven - without Example keyword.
+
+    
+
+2. with Example + Scenario Outline
+
+3. using Tables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      

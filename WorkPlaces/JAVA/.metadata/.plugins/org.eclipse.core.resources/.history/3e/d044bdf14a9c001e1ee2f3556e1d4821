@@ -1,0 +1,13 @@
+package generics;
+
+public class DataStructureDemo {
+
+	public static void main(String[] args) {
+		
+ 
+	String str = "hi   hello           i mo serrrr             hbbvhruouhknm  ";
+			
+			System.out.println(str.trim());
+		
+	}
+}

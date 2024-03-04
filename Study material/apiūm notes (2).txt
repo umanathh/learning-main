@@ -1,0 +1,28 @@
+1. Apium does not support android version lower than 4.2
+
+2. Apium can not automate images.
+
+3. Apium can not automate location of images.
+
+4. Apium can not detect visualization, it requires some external tools for that.
+
+5.
+
+
+Prerequisite for apium-
+
+1. Install Jdk or JAVA
+
+2. Set java home as environment variable.
+
+3. Install Android studio.
+
+4. Set Android home in environment virables and give the path of sdk in andriod home.
+
+5. set path for plateform tool in envrionment vrbl to avoid avd issues to identify your device connected with avd.
+
+6. download apium server and install .
+
+
+                    adb shell dumpsys window windows | grep -E ‘mCurrentFocus’
+

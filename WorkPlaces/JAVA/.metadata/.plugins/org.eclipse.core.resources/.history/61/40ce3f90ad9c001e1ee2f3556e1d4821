@@ -1,0 +1,59 @@
+package generics;
+
+public class DataStructureDemo {
+	
+	
+// Method to get largest number, less than or equal to given number
+		public void LargestPrimeNumber(int n) {
+		
+		DataStructureDemo demo = new DataStructureDemo();
+		int temp = 0;
+		
+		if(n<=1)
+			System.out.println("number less than equal to this number is not possible");
+		else {
+		
+			for(int i = n;i>1;i--) {
+				
+			}
+			
+			
+		}
+			
+	}
+	
+	
+// Method to get prime number
+	public boolean IsPrime(int n) {
+
+		int n1 = n;
+		int k = 0;
+
+		if (n1 <= 1)
+			return false;
+		if (n > 1) {
+
+			for (int i = 2; i <= Math.sqrt(n1); i++) {
+
+				if (n % i == 0)
+					k++;
+			}
+
+			if (k > 0)
+				return false;
+			else
+				return true;
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		DataStructureDemo demo = new DataStructureDemo();
+
+		int number = 45;
+		demo.IsPrime(number);
+
+	}
+}

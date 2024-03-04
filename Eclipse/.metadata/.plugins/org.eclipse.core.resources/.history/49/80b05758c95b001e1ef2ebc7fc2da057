@@ -1,0 +1,28 @@
+package postAPIValidation;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
+
+import io.restassured.RestAssured;
+
+
+public class PostAPIValidation {
+	
+	public static void main( String[] args ) {
+		
+	// Validation if add APIsi working fine
+	
+		// Given - All the input details needs to submit
+		// when - submit the API ( whether it is get, post or what 
+		// Then - validate the response 
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+        given().log().all().queryParam("key","qaclick123").header("Content-type","application/json")
+		.body(body.Body())
+		.when().post("maps/api/place/add/json")
+		.then().log().all().assertThat().statusCode(200)
+		.body("scope",equalTo("APP"));
+
+	}
+
+}
